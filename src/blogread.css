@@ -1,0 +1,128 @@
+.blogRead {
+    display: flex;
+    align-items:center;
+  }
+  
+  .blogReadWrapper {
+    flex: 8;
+    padding: 80px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .blogReadImg {
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .blogReadTitle {
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    font-family:monospace;
+  }
+  
+  .blogReadTitleInput{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    font-family:monospace;
+    border: none;
+   color: lightslategray;
+  }
+
+  .blogReadTitleInput:focus{
+    outline: none;
+  }
+
+  .blogReadDescInput{
+    font-size: 21px;
+    line-height: 25px;
+    font-family: 'Cormorant Garamond', serif;
+    color: lightslategray;
+    border-bottom: 1px solid rgb(170, 165, 165);
+  }
+
+  .blogReadEdit {
+    float: right;
+    font-size: 16px;
+  }
+  
+  .blogReadIcon {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .blogReadIcon:first-child {
+    color: green;
+  }
+  .blogReadIcon:last-child {
+    color: rgb(235, 53, 2);
+  }
+  
+  .blogReadInfo {
+    margin-bottom: 0;
+    display: flex;
+    /* justify-content: space-between; */
+    font-size: 16px;
+    color:rgb(58, 32, 82);
+    font-family:monospace;
+  }
+  
+  .blogReadAuthor{
+    margin-left: 5px;
+  }
+  
+  .blogdate{
+    font-size: 12px;
+  }
+  .blogReadDesc {
+    color: rgb(104, 93, 93);
+    font-size: 21px;
+    line-height: 25px;
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  .blogReadDescInput{
+    font-size: 21px;
+    line-height: 25px;
+    font-family: 'Cormorant Garamond', serif;
+    color: lightslategray;
+    border: none;
+    border-bottom: 1px solid rgb(170, 165, 165);
+    height: 300px;
+  }
+
+  .blogReadDescInput:focus{
+    outline: none;
+  }
+  
+  .blogReadDesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(47, 44, 44);
+  }
+
+  .blogReadUpdateButton{
+    width:fit-content;
+    border: none;
+    background-color: rgb(133, 193, 243);
+    padding: 7px;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 22px;
+  }
+
+  .blogReadUpdateButton:hover{
+    background-color: rgb(43, 140, 220);
+  }

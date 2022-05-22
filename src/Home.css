@@ -1,0 +1,16 @@
+/* .app {
+    background-color:white;
+    display: flex;
+  } */
+  
+  .app_body {
+    display: flex;
+  }
+
+  /* .sidepro{
+    position: sticky;
+    flex: 0.2;
+    float:left;
+  }
+   */
+  

@@ -1,0 +1,284 @@
+.head-colr{
+  background-color: rgb(139, 134, 202);
+  height: 300px;
+}
+.head1{
+  padding-left: 8%;
+  padding-top: 5%;
+  padding-bottom: 1%;
+  margin-left: 14%;
+  color: white;
+}
+
+.icons{
+  width: 70px !important;
+  height: 70px !important;
+}
+.btn{
+  border: 1px solid rgb(211, 185, 185);
+  border-radius: 25px;
+}
+
+.btn:hover{
+  background-color: #eb4f3acd;
+}
+
+.progress{
+  margin-top: 3%;
+}
+
+.spac{
+  margin-left: 25%;
+}
+
+.spac1{
+  margin-left: 31%;
+}
+
+
+.left_box{
+  padding-top: 6%;
+  text-align: center;
+    
+}
+.right_box{
+  padding-top: 2%;
+
+padding-right: 5%;
+}
+
+.textcolor{
+color: #003973;
+}
+
+p{
+  
+  font-weight: 300;
+}
+
+h4,h5{
+  font-weight: 300;
+}
+
+h6{
+  font-weight: 400;
+}
+.bio{
+    padding-top: 5%;
+}
+.count{
+  padding-top: 9%;
+  font-size: large;
+}
+.spacededo{
+  font-weight: 300;
+  padding: 1%;
+}
+
+.imoji{
+  padding-bottom: 8%;
+}
+.login__field {
+  padding: 20px 0px;	
+  position: relative;	
+}
+
+.login__input {
+  border: none;
+  border-bottom: 2px solid #D1D1D4;
+  background: none;
+  padding: 10px;
+  padding-left: 24px;
+  font-weight: 700;
+  width: 75%;
+  transition: .2s;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+  outline: none;
+  border-bottom-color: #6A679E;
+}
+
+.chgbtn {
+  background: #fff;
+  font-size: 14px;
+  margin-top: 30px;
+  padding: 16px 20px;
+  border-radius: 26px;
+  border: 1px solid #D4D3E8;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  width: 45%;
+  color: #4C489D;
+  box-shadow: 0px 2px 2px #5C5696;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.chgbtn:active,
+.chgbtn:focus,
+.chgbtn:hover {
+  border-color: #6A679E;
+  outline: none;
+}
+
+.chgbtn__icon {
+  font-size: 24px;
+  margin-left: auto;
+  color: #7875B5;
+}
+
+section {
+  min-height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.cox {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  max-width: 85% !important;
+}
+.left {
+  display: flex;
+  width: 60%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.right {
+  width: 50%;
+  min-height: 400px;
+  background-color: #303137;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+  color: white;
+  margin-left: -150px;
+}
+.right h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+.right p {
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
+}
+.right a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  padding: 20px 30px;
+  display: inline-block;
+  letter-spacing: 2px;
+}
+
+.content{
+  height: 400px;
+  overflow-y: scroll;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 20px;
+  }
+  .left {
+    width: 100%;
+    height: 400px;
+  }
+  .right {
+    width: 90%;
+    margin: 0;
+    margin-top: -100px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  img{
+    height: 130px;
+    width: 130px;
+  }
+  h4{
+    font-size: large;
+  }
+  h1{
+    font-size: larger;
+  }
+  .head1{
+    margin: 0;
+  }
+  .button__text{
+    font-size: x-small;
+  }
+}
+
+@media only screen and (max-width: 356px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 20px;
+  }
+  .left {
+    width: 100%;
+    height: 250px;
+  }
+  .right {
+    width: 90%;
+    margin: 0;
+    margin-top: -100px;
+  }
+
+  .right1{
+    margin-top: 35px;
+    width: 90%;
+  }
+  .left1{
+    width: 100%;
+    margin: 0;
+    height: 250px;
+    margin-top: -100px;
+  }
+}
+
+.label{
+  font-weight: 500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #7875B5;
+  background: #fff;
+  font-size: 14px;
+  border-radius: 26px;
+  border: 1px solid #D4D3E8;
+  font-weight:600;
+  color: #4C489D;
+  box-shadow: 0px 2px 2px #5C5696;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.followButton{
+  width:fit-content;
+    border: none;
+    background-color: rgb(133, 193, 243);
+    padding: 7px;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 22px;
+}
+
+.followButton:hover{
+  background-color: rgb(43, 140, 220);
+}

@@ -1,0 +1,43 @@
+.message{
+    display: flex;
+    flex-direction: column;
+}
+.messagetop{
+    display: flex;
+}
+.messagetop>img:hover{
+    cursor:pointer;
+}
+.userprofileimg{
+ height: 50px !important;
+ width: 50px !important;
+ border-radius: 50% !important;
+ object-fit: cover;
+}
+
+.messagetext{ 
+    margin-left: 10px;
+    padding: 20px;
+    background-color:rgb(160, 160, 200);
+    border-radius: 20px;
+    max-width: 400px;
+}
+
+.messagebottom{
+    margin-top: 10px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.date{
+    margin-left: 5px;
+}
+
+.message.mine{
+    align-items: flex-end;
+}
+.message.mine .messagetext{
+    background-color:whitesmoke;
+    color: black;
+}

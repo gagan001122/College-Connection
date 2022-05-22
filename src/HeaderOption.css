@@ -1,0 +1,48 @@
+/* .header_right{
+    display: flex;
+    align-items:center;
+    margin-left: 20rem;
+}
+
+.headerOption_icon{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.headerOption_title{
+    margin-left: 10px;
+}
+
+.headerOption_title{
+    font-size: 12px;
+} */
+
+.headerOption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  color: grey;
+  cursor: pointer;
+  background-color: rgb(242, 218, 254);
+}
+
+.headerOption:hover {
+  color: black;
+}
+
+.headerOption_title {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.headerOption_icon {
+  object-fit: contain; /* keeps aspect ratio */
+  height: 30px !important;
+  width: 30px !important;
+  background-color: rgb(242, 218, 254);
+  color: rgb(101, 98, 98);
+}
+
+/* .headerOption_icon:hover {
+  transform: scale(1.3);
+} */

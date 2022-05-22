@@ -1,0 +1,136 @@
+.sideprofile {
+  display: flex;
+  flex-direction: column;
+  top: 20px;
+  position: sticky;
+  flex: 0.2;
+  border-radius: 10px;
+  height: fit-content;
+  text-align: center;
+  margin-right: 60px;
+  /* margin-left: 10em; */
+}
+
+.sideprofile_avatar {
+  margin-bottom: 10px;
+  height: 80px !important;
+  width: 80px !important;
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.sideprofile_top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid lightgrey;
+  border-bottom: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.sideprofile_top > h4 {
+  padding-top: 10px;
+  color: grey;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sideprofile_top > h2 {
+  font-size: 20px;
+}
+
+.sideprofile_top > img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: -50px;
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.sideprofile_stats {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sideprofile_stats:hover {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.sideprofile_stats > p {
+  color: grey;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.sideprofile_stat_number {
+  font-weight: bold;
+  color: blue !important;
+}
+
+.sideprofile_bottom {
+  padding: 10px;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid lightgrey;
+  
+}
+
+.sideprofile_item {
+  display: flex;
+  font-size: 14px;
+  color: grey;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.sideprofile_item:hover {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.sideprofile_tags {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.sideprofile_hashtags {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  margin-top: 10px;
+
+}
+
+.sideprofile_hashtags > p {
+  padding-bottom: 5px;
+  text-align: left;
+  font-weight: 600;
+}
+
+@media screen and (max-width:640px ) {
+  .sideprofile_hashtags{
+   display: none;
+  }
+  .sideprofile{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1425px ) {
+ 
+}
